@@ -141,39 +141,73 @@
 
 
 
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+// import './App.css';
+
+// function App() {
+//   return (
+//       <div className="app">
+//         <nav className="navbar">
+//           <ul>
+//             <li><a href="#bio">Biography</a></li>
+//             <li><a href="#demos">Demos</a></li>
+//             <li><a href="#studio">Studio</a></li>
+//             <li><a href="#contact">Contact</a></li>
+//           </ul>
+//         </nav>
+//         <section id="bio">
+//           <h1>Biography</h1>
+//           <p>Insert your biography here</p>
+//         </section>
+//         <section id="demos">
+//           <h1>Demos</h1>
+//           <p>Insert your demos here</p>
+//         </section>
+//         <section id="studio">
+//           <h1>Studio</h1>
+//           <p>Insert your studio information here</p>
+//         </section>
+//         <section id="contact">
+//           <h1>Contact</h1>
+//           <p>Insert your contact information here</p>
+//         </section>
+//       </div>
+//     );
+//   }
+
+
+// export default App;
+
+
+
+// TEST from chat GPT
+
+import React from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
+import Biography from './components/Biography';
+import Demos from './components/Demos';
+import Studio from './components/Studio';
+import Contact from './components/Contact';
 
 function App() {
   return (
-      <div className="app">
-        <nav className="navbar">
-          <ul>
-            <li><a href="#bio">Biography</a></li>
-            <li><a href="#demos">Demos</a></li>
-            <li><a href="#studio">Studio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <section id="bio">
-          <h1>Biography</h1>
-          <p>Insert your biography here</p>
-        </section>
-        <section id="demos">
-          <h1>Demos</h1>
-          <p>Insert your demos here</p>
-        </section>
-        <section id="studio">
-          <h1>Studio</h1>
-          <p>Insert your studio information here</p>
-        </section>
-        <section id="contact">
-          <h1>Contact</h1>
-          <p>Insert your contact information here</p>
-        </section>
+    <div className="App">
+      <NavBar />
+      <div id="biography">
+        <Biography />
       </div>
-    );
-  }
-
+      <div id="demos">
+        <Demos />
+      </div>
+      <div id="studio">
+        <Studio />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+    </div>
+  );
+}
 
 export default App;
