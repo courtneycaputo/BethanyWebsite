@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
-import {Link} from 'react-scroll'
+import React, { Component } from 'react';
+import {Link} from 'react-scroll';
+import microphone from '../assets/microphone.jpg';
 
 export default class NavBar extends Component {
     render() {
         return (
       <nav className="navbar">
         <div className="logo">
-          {/* Insert your logo here */}
+        {/* <img src={microphone} className="logopic" /> */}
         </div>
         <ul className="nav-links">
         <li><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
