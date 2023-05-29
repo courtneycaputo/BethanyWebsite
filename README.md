@@ -1,3 +1,6 @@
+sticky nav bar: https://saltares.com/sticky-nav-bar-on-scroll-with-react-hooks/
+Image by rawpixel.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

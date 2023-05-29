@@ -60,10 +60,10 @@ import PageContainer from './components/PageContainer';
 export default class App extends Component {
   render() {
     return (
-      <>
+      <div className='body'>
        <NavBar/>
       <PageContainer/>
-      </>
+      </div>
     )
   }
 }

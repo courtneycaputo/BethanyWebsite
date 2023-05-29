@@ -3,24 +3,53 @@
 /* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans'); */
 
 .home{
-  /* width: 100%;
-  height: 100vh; */
-  background: linear-gradient(
+  /* width: 100%; */
+  height: 500px; 
+
+  /*background: linear-gradient(
     to right,
     paleturquoise 0%,
     paleturquoise 60%,
     white 60%,
     white 100%
-  );
-  min-height: 350px;
-}
+  );*/
+  /* min-height: 100%; */
 
+    /* width: 100%; */
+    /* height: calc(100vh - (2em + 18px));  */
+    /* height:100vh; 
+    background-image: url('./assets/upperwave.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left; */
+   
+  
+}
+/* 
+.body{
+  background: linear-gradient( #FFFFFF, #00A8E8, #007EA7, #003459);
+  animation: gradient 25s ease infinite;
+  height: 100%;
+} */
+
+.my-picture{
+  border-radius: 100px 100px 0px 0px;
+  /* width: 500px;
+  height: 700px; 
+  background-color: black;*/
+  /* radius = top left, top right, bottom right, bottom left */
+}
 .homefont{
   font-family: 'Bungee', cursive;
   font-size: 55px;
   color: black;
-  /* padding: 50px; */
-  text-shadow: -3px -3px white;
+  padding-top: 200px;
+  text-shadow: -3px -3px white, -4px -4px black;
+}
+
+.quote {
+  text-align: center;
 }
 
 
@@ -34,13 +63,39 @@
   width: 50px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+}
 
-  .navbar {
-    background-color: black;
-    padding: 10px;
-  }
-  
-  .navbar ul {
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: turquoise;
+  color: white;
+  padding: 10px 20px;
+} */
+
+
+.nav {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+ }
+
+ .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,18 +103,29 @@
     justify-content: flex-end;
   }
   
-  .navbar li {
+  .nav li {
     margin: 0 10px;
   }
   
-  .navbar a {
-    color: white;
+  .nav a {
+    color: blue;
     text-decoration: none;
+    cursor: pointer;
   }
   
+  
+    .about {
+      background: linear-gradient( #c1d6e9, 70%, #6daad6);
+    }
+
+    .demos {
+      background: linear-gradient( #6daad6, 70%, #126cb0);
+    }
+    
+  
   .section {
-    padding: 50px;
-    background-color: white;
+    padding: 100px;
+    /* background-color: white; */
     color: black;
   }
   
