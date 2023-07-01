@@ -1,5 +1,6 @@
 sticky nav bar: https://saltares.com/sticky-nav-bar-on-scroll-with-react-hooks/
 Image by rawpixel.com
+audio player: https://github.com/Ibaslogic/react-audio-player
 
 # Getting Started with Create React App
 
