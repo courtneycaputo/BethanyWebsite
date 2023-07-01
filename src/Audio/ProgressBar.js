@@ -21,8 +21,15 @@ const ProgressBar = ({
     return '00:00';
   };
 
+  const progressStyle={
+    backgroundColor: 'transparent',
+    width: '100%',
+            
+  };
+
   return (
-    <div className="progress">
+    
+    <div className="progress" style={progressStyle}>
       <span className="time current">{formatTime(timeProgress)}</span>
       <input
         type="range"

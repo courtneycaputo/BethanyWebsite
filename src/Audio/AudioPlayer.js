@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { tracks } from '../assets/Demos/tracks';
 
+
 // import components
 import DisplayTrack from './DisplayTrack';
 import Controls from './Controls';
@@ -32,7 +33,7 @@ const AudioPlayer = () => {
 
   return (
     <>
-      <TopBar />
+      {/* <TopBar /> */}
       <div className="audio-player">
         <div className="inner">
           <DisplayTrack
@@ -62,6 +63,7 @@ const AudioPlayer = () => {
           />
         </div>
       </div>
+      
     </>
   );
 };

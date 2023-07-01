@@ -21,9 +21,9 @@ export default class PageContainer extends Component {
       <div id="studio" >
         <Studio />
       </div>
-      <div id="contact" >
+      {/* <div id="contact" >
         <Contact />
-      </div>
+      </div> */}
           </>
       )
   }

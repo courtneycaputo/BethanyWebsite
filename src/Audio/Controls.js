@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import Row from 'react-bootstrap/Row';
 
 // icons
 import {
@@ -84,27 +85,36 @@ const Controls = ({
     }
   }, [volume, audioRef, muteVolume]);
 
+
+  const volumeStyle={
+    width: '200px',
+            
+  };
+
   return (
     <div className="controls-wrapper">
-      <div className="controls">
-        <button onClick={handlePrevious}>
-          <IoPlaySkipBackSharp />
-        </button>
-        <button onClick={skipBackward}>
-          <IoPlayBackSharp />
-        </button>
-
-        <button onClick={togglePlayPause}>
-          {isPlaying ? <IoPauseSharp /> : <IoPlaySharp />}
-        </button>
-        <button onClick={skipForward}>
-          <IoPlayForwardSharp />
-        </button>
-        <button onClick={handleNext}>
-          <IoPlaySkipForwardSharp />
-        </button>
-      </div>
-      <div className="volume">
+      <Row>
+        <div className="controls">
+          <button onClick={handlePrevious}>
+            <IoPlaySkipBackSharp />
+          </button>
+          <button onClick={skipBackward}>
+            <IoPlayBackSharp />
+          </button>
+          <button onClick={togglePlayPause}>
+            {isPlaying ? <IoPauseSharp /> : <IoPlaySharp />}
+          </button>
+          <button onClick={skipForward}>
+            <IoPlayForwardSharp />
+          </button>
+          <button onClick={handleNext}>
+            <IoPlaySkipForwardSharp />
+          </button>
+        </div>
+      </Row>
+     
+     <Row>
+      <div className="volume" style={volumeStyle}>
         <button onClick={() => setMuteVolume((prev) => !prev)}>
           {muteVolume || volume < 5 ? (
             <IoMdVolumeOff />
@@ -121,10 +131,12 @@ const Controls = ({
           value={volume}
           onChange={(e) => setVolume(e.target.value)}
           style={{
-            background: `linear-gradient(to right, #f50 ${volume}%, #ccc ${volume}%)`,
+            background: `linear-gradient(to right, #000000 ${volume}%, #ccc ${volume}%)`,
           }}
         />
       </div>
+      </Row>
+
     </div>
   );
 };
