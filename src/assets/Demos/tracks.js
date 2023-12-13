@@ -18,18 +18,21 @@ export const tracks = [
     src: beautiful,
     author: 'Bethany',
     thumbnail: trinix,
+    description: 'This is a description of what this audio is',
   },
   {
     title: 'We Are The World',
     src: world,
     author: 'Michael Jackson',
     thumbnail: jackson,
+    description: 'This is a description of what this audio is',
   },
   {
     title: 'Top Of The World',
     src: top,
     author: 'Dbanj',
     thumbnail: dbanj,
+    description: 'This is a description of what this audio is',
   },
   {
     title: 'Cinematic Time Lapse',
