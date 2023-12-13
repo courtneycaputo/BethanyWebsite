@@ -23,7 +23,7 @@ const ProgressBar = ({
 
   const progressStyle={
     backgroundColor: 'transparent',
-    width: '100%',
+    
             
   };
 

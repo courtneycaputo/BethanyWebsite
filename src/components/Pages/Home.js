@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col';
 import Wave from '../../assets/wave.jpg';
 import UpWave from '../../assets/upperwave.png';
 import LowWave from '../../assets/lowerwave.png';
+import background1 from '../../assets/Background1.png';
+
 
 
 export default function Home() {
@@ -20,7 +22,7 @@ export default function Home() {
   // };
 
   const myStyle={
-    backgroundImage:`url(${LowWave}`,
+    backgroundImage:`url(${background1}`,
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',

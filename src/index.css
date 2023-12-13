@@ -34,11 +34,12 @@
 } */
 
 .my-picture{
-  border-radius: 100px 100px 0px 0px;
-  /* width: 500px;
-  height: 700px; 
-  background-color: black;*/
-  /* radius = top left, top right, bottom right, bottom left */
+  /* border-radius: 40%; */
+  width: 70%;
+  /* height: 700px; 
+  background-color: black
+   */
+  
 }
 .homefont{
   font-family: 'Bungee', cursive;
@@ -83,9 +84,8 @@
 
 
 .nav {
-  background-color: black;
+  background-color: transparent;
   width: 100%;
-  color: white;
   padding: 10px 20px;
  }
 
@@ -93,6 +93,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color:#1e1e1e;
 }
 
   .nav ul {
@@ -108,18 +109,23 @@
   }
   
   .nav a {
-    color: blue;
+    color: rgb(0, 191, 255);
     text-decoration: none;
     cursor: pointer;
   }
   
   
     .about {
-      background: linear-gradient( #c1d6e9, 70%, #6daad6);
+      /* background: linear-gradient( #c1d6e9, 70%, #6daad6); */
     }
 
     .demos {
       background: linear-gradient( #6daad6, 70%, #126cb0);
+      
+    }
+
+    .studio{
+      background: linear-gradient( #126cb0, 70%, #052d4d);
     }
     
   
@@ -159,6 +165,7 @@
 /* AUDIO PLAYER ------------------------------------------------ */
 .audio-player {
   background: transparent;
+  width: 300px;
   
   
 }
@@ -257,7 +264,7 @@ button svg {
   display: flex;
   align-items: center;
   gap: 10px;
-  width: 50%;
+  /* width: 50%; */
 }
 
 /* time */
