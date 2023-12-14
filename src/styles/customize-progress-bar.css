@@ -41,7 +41,7 @@ input[type="range"]::before {
 
 /* played progress length - firefox */
 input[type="range"]::-moz-range-progress {
-  background: rgb(0, 26, 255);
+  background: rgb(0, 0, 0);
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
   height: 2px;
@@ -70,7 +70,7 @@ input[type="range"]::-moz-range-thumb {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background: rgb(72, 0, 255);
+  background: rgb(0, 0, 0);
   cursor: pointer;
   border: transparent;
   position: relative;
