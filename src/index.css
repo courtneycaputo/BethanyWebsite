@@ -111,6 +111,10 @@
       /* linear-gradient( #7eb0c0, 70%, black); */
       
     }
+    .biofont{
+      text-align: justify;
+    text-justify: inter-word;
+    }
 
     .demos {
       background: #7eb0c0;
@@ -178,7 +182,7 @@
 }
 
 .text {
-  color: rgb(25, 0, 255);
+  color: rgb(255, 255, 255);
 }
 
 .title {
@@ -255,10 +259,11 @@ button svg {
 }
 
 .progress {
-  background-color: transparent;
+  background-color: green;
   display: flex;
   align-items: center;
   gap: 10px;
+  color:aquamarine;
   /* width: 50%; */
 }
 
@@ -270,7 +275,7 @@ button svg {
 }
 
 .time.current {
-  color: rgb(30, 0, 255);
+  color: rgb(255, 255, 255);
 }
 
 .demo-description {
